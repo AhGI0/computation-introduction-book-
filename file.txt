@@ -23,3 +23,23 @@ A= 10
 B = 5
 (A,B) = (B,A)
 print(A)
+
+----
+
+nums = {
+    "x": 12,
+    "y": 11,
+    "z": 10,
+    "OP": 1
+}
+
+def EE (ex):
+    S_value = None
+    S_key =None
+    for i,e in ex.items():
+        if S_value is None or e < S_value:
+            S_value = e
+            S_key = i
+    return f'the smallest number is {S_value} and it is for {S_key}  '
+
+print(EE(nums))
