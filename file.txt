@@ -49,5 +49,11 @@ A= '123456789'
 
 print(A[0:len(A):2])
 
+-----
 
+ans = 3
+A = 0
+for i in range(3):
+    ans += ans
+print(ans)
 

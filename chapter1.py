@@ -1,1 +1,0 @@
-# he can't understand the logic of those parameter now can you understand all of them!
