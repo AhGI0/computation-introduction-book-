@@ -62,4 +62,5 @@ A= 0
 
 for i in '12345678':
     A += int(i)
+    
 print(A)
